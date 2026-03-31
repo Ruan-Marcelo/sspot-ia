@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="icon" type="image/x-icon" href="../assets/img/icon.png">
+</head>
+
+<body>
+    <!-- Navigation -->
+     <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-sm custom-navbar">
+          <a href="#" class="navbar-brand ps-2 fw-bold"> 🚀 SSPOT-VR </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuItems"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menuItems">
+            <ul class="navbar-nav ms-auto align-items-center">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link custom-link active">Início</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="./about.html" class="nav-link custom-link"
+                  >Sobre</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a href="./students.html" class="nav-link custom-link"
+                  >Alunos</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a href="./teachers.html" class="nav-link custom-link"
+                  >Professores</a
+                >
+              </li>
+
+              <li class="nav-item ms-3">
+                <a href="https://drive.google.com/drive/folders/1_qv7LuEIKekw-QxTLRDmBszbj6aTu8xJ" class="btn btn-gradient">Download</a>
+              </li>
+
+              <li class="nav-item ms-2">
+                <button id="themeToggleBtn" class="btn-theme">
+                  <i class="theme-icon ti ti-moon"></i>
+                  <span class="theme-text">🌙</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Intro -->
+    <section id="intro" class="pt-3 pb-2">
+        <div class="container">
+            <!-- Play SSPOT-VR -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card card-vr-bg">
+                        <div class="card-body no-padding">
+                            <div class="row">
+                                <div class="col-5"></div>
+                                <div class="col-md-7 col-sm-12 text-bg">
+                                    <h1 class="card-title title-font">Um Jogo em Realidade Virtual Imersiva para Aprender Programação</h1>
+                                    <p class="lead-alt pt-4">
+                                        Aprenda a programar com um jogo em Realidade Virtual imersiva, diretamente do seu celular ou computador agora mesmo!
+                                    </p>
+                                    <p class="lead-alt pt-4">
+                                        Seja sozinhou ou com um amigo, explore um espaço repleto de desafios e diversão com o robô Mark, que será seu companheiro durante todo o jogo.
+                                    </p>
+                                    <a href="students.html" class="btn-play">
+                                    Jogar agora <i class="ti ti-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Realities -->
+            <div class="row mt-4">
+                <div class="col-md-4 col-sm-12">
+                    <div class="card h-100 card-tech" >
+                        <img src="../assets/img/augmented-reality.png" class="card-img-top" alt="Realidade Aumentada" style="height: 280px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Realidade Aumentada</h4>
+                            <p class="lead-alt">
+                                Na Realidade Aumentada, você vê coisas novas no mundo real usando a câmera do celular ou tablet. É como colocar objetos e personagens mágicos na sua sala de estar!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 mt-sm">
+                    <div class="card h-100 card-tech" >
+                        <img src="../assets/img/virtual-reality.jpg" class="card-img-top" alt="Realidade Virtual" style="height: 280px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Realidade Virtual</h4>
+                            <p class="lead-alt">
+                                Na Realidade Virtual, você coloca um óculos especial e entra em um mundo completamente diferente! Nesse mundo, você pode brincar, aprender e explorar como se estivesse lá de verdade.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 mt-sm">
+                    <div class="card h-100 card-tech" >
+                        <img src="../assets/img/mixed-reality.png" class="card-img-top" alt="Realidade Mista" style="height: 280px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Realidade Mista</h4>
+                            <p class="lead-alt">
+                                Na Realidade Mista, o mundo real e o mundo virtual se juntam! Você pode ver coisas virtuais, como robôs ou criaturas, interagindo com objetos de verdade ao seu redor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Programming and Computational Thinking -->
+<section id="programming" class="pt-3 pb-5">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Programming Card -->
+            <div class="col-md-6">
+                <div class="card h-100 fade-in">
+                    <img src="../assets/img/programming.png" class="card-img-top" style="max-height: 310px;" alt="Programação">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Programação</h4>
+
+                        <div class="card-content-section mt-3">
+                            <h5>💻 Conversando com Computadores</h5>
+                            <p class="lead-alt">
+                                Aprender programação é como aprender a falar com os computadores! 
+                                Quando você aprende a programar, descobre como dar instruções para 
+                                que o computador faça coisas incríveis, como criar jogos, animações e 
+                                até robôs. Com a programação, você pode transformar suas ideias em 
+                                realidade, fazendo com que elas ganhem vida no mundo digital.
+                            </p>
+                        </div>
+
+                        <div class="card-content-section mt-3">
+                            <h5>🧠 Criatividade e Raciocínio</h5>
+                            <p class="lead-alt">
+                                Além de ser super divertido, saber programar também é muito importante. 
+                                Vivemos em um mundo cheio de tecnologia, e saber como ela funciona dá 
+                                superpoderes para você resolver problemas de diferentes maneiras. A 
+                                programação ajuda a desenvolver o raciocínio lógico e a criatividade, 
+                                porque você precisa pensar em soluções e descobrir formas de melhorar 
+                                aquilo que está criando.
+                            </p>
+                        </div>
+
+                        <div class="card-content-section mt-3">
+                            <h5>🚀 Portas para o Futuro</h5>
+                            <p class="lead-alt">
+                                E o mais legal? Programar pode abrir portas para muitas aventuras 
+                                no futuro! Com essas habilidades, você pode se tornar um inventor, 
+                                criador de jogos ou até ajudar a construir novas tecnologias que vão 
+                                mudar o mundo. É como ter uma varinha mágica para transformar ideias 
+                                em realidade!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Computational Thinking Card -->
+            <div class="col-md-6">
+                <div class="card h-100 fade-in">
+                    <img src="../assets/img/computational-thinking.jpg" class="card-img-top" style="max-height: 310px;" alt="Pensamento Computacional">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Pensamento Computacional</h4>
+
+                        <div class="card-content-section mt-3">
+                            <h5>🧩 Quebrando Problemas</h5>
+                            <p class="lead-alt">
+                                O pensamento computacional é uma maneira especial de resolver problemas, 
+                                assim como os computadores fazem! Ele ensina a dividir uma tarefa grande 
+                                em partes menores, pensar em passos claros para resolver cada uma delas 
+                                e depois seguir esses passos para chegar ao resultado. É como montar um 
+                                quebra-cabeça, onde cada peça precisa estar no lugar certo para formar 
+                                a imagem completa.
+                            </p>
+                        </div>
+
+                        <div class="card-content-section mt-3">
+                            <h5>📋 Organização e Planejamento</h5>
+                            <p class="lead-alt">
+                                Aprender pensamento computacional é muito importante porque ajuda a 
+                                desenvolver habilidades como organização, planejamento e resolução de 
+                                problemas. Mesmo que você não esteja lidando com computadores o tempo 
+                                todo, o pensamento computacional pode ser usado em várias situações 
+                                do dia a dia, como criar uma receita ou planejar um jogo. Ele ensina 
+                                a pensar de forma lógica e criativa ao mesmo tempo!
+                            </p>
+                        </div>
+
+                        <div class="card-content-section mt-3">
+                            <h5>⚡ Criando Soluções Eficientes</h5>
+                            <p class="lead-alt">
+                                Com o pensamento computacional, você também aprende a criar soluções 
+                                mais eficientes. Isso significa fazer as coisas de forma mais rápida 
+                                e fácil, economizando tempo e esforço. E o melhor de tudo é que, com 
+                                essa habilidade, você está se preparando para o futuro, onde a tecnologia 
+                                e a programação serão cada vez mais importantes!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row g-4">
+            <!-- SSPOT-VR Research -->
+            <div class="col-md-6 col-sm-12">
+                <div class="card h-100 fade-in">
+                    <div class="card-image-center">
+                        <img src="../assets/img/mark.png" alt="Mark" class="mark-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Uma Pesquisa Científica</h4>
+
+                        <div class="card-content-section mt-3">
+                            <h5>Aprendizado Divertido</h5>
+                            <p class="lead-alt">
+                                O <strong>SSPOT-VR</strong> é uma ferramenta incrível que usa <em>realidade virtual</em> 
+                                para ajudar crianças a aprenderem programação de maneira divertida. 
+                                Ao colocar os óculos, você é transportado para uma estação espacial onde pode criar códigos 
+                                com blocos coloridos e interativos — como montar um quebra-cabeça no espaço!
+                            </p>
+                        </div>
+
+                        <div class="card-content-section mt-3">
+                            <h5>Aprenda sem perceber</h5>
+                            <p class="lead-alt">
+                                Mesmo quem nunca programou consegue se divertir e aprender. 
+                                Os blocos de código são fáceis de usar e ajudam as crianças a desenvolver 
+                                <strong>lógica</strong> e <strong>resolução de problemas</strong> naturalmente.
+                            </p>
+                        </div>
+
+                        <div class="card-content-section mt-3">
+                            <h5>Preparando para o futuro</h5>
+                            <p class="lead-alt">
+                                Com o SSPOT-VR, as crianças aprendem programação e desenvolvem habilidades essenciais 
+                                para o futuro, tornando o aprendizado uma experiência <strong>divertida</strong> e <strong>inesquecível</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- For Parents -->
+            <div class="col-md-6 col-sm-12">
+                <div class="card h-100 fade-in">
+                    <div class="card-image-center">
+                        <img src="../assets/img/students.PNG" alt="Crianças Aprendendo" class="pai-mae">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Para Pais, Mães ou Responsáveis</h4>
+
+                        <div class="card-content-section mt-3">
+                            <h5>🔬 Pesquisa Científica</h5>
+                            <p class="lead-alt">
+                                O SSPOT-VR é fruto de uma pesquisa científica dedicada a criar novas 
+                                maneiras de ensinar programação de forma interativa e eficaz. Desenvolvido 
+                                por especialistas em tecnologia educacional, ele oferece um ambiente 
+                                de realidade virtual seguro e envolvente para que as crianças aprendam 
+                                conceitos de programação enquanto se divertem. Como é baseado em estudos 
+                                e testes rigorosos, o SSPOT-VR foi projetado para maximizar o aprendizado, 
+                                respeitando o ritmo individual de cada criança e promovendo o desenvolvimento 
+                                de habilidades essenciais, como o pensamento lógico e a resolução de problemas.
+                            </p>
+                        </div>
+
+                        <div class="card-content-section mt-3">
+                            <h5>💡 Benefícios para o Futuro</h5>
+                            <p class="lead-alt">
+                                Utilizar o SSPOT-VR é uma escolha vantajosa porque combina o que há de mais 
+                                moderno em tecnologia com práticas pedagógicas comprovadas. Ao escolher essa 
+                                ferramenta, os pais estão garantindo que seus filhos tenham acesso a um método 
+                                de ensino que foi cuidadosamente desenvolvido e testado, alinhado com as 
+                                necessidades do mundo digital em que vivemos. Além de ser uma forma divertida 
+                                de aprender, o SSPOT-VR prepara as crianças para o futuro, incentivando o 
+                                interesse por áreas como ciência e tecnologia desde cedo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+             <section class="">
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+                 class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                 data-ripple-color="light"
+                 >
+              <img
+                   src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                   class="w-100"
+                   />
+              <a href="#!">
+                <div
+                     class="mask"
+                     style="background-color: rgba(251, 251, 251, 0.2);"
+                     ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+                 class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                 data-ripple-color="light"
+                 >
+              <img
+                   src="https://mdbootstrap.com/img/new/fluid/city/111.jpg"
+                   class="w-100"
+                   />
+              <a href="#!">
+                <div
+                     class="mask"
+                     style="background-color: rgba(251, 251, 251, 0.2);"
+                     ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+                 class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                 data-ripple-color="light"
+                 >
+              <img
+                   src="https://mdbootstrap.com/img/new/fluid/city/112.jpg"
+                   class="w-100"
+                   />
+              <a href="#!">
+                <div
+                     class="mask"
+                     style="background-color: rgba(251, 251, 251, 0.2);"
+                     ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+                 class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                 data-ripple-color="light"
+                 >
+              <img
+                   src="https://mdbootstrap.com/img/new/fluid/city/114.jpg"
+                   class="w-100"
+                   />
+              <a href="#!">
+                <div
+                     class="mask"
+                     style="background-color: rgba(251, 251, 251, 0.2);"
+                     ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+                 class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                 data-ripple-color="light"
+                 >
+              <img
+                   src="https://mdbootstrap.com/img/new/fluid/city/115.jpg"
+                   class="w-100"
+                   />
+              <a href="#!">
+                <div
+                     class="mask"
+                     style="background-color: rgba(251, 251, 251, 0.2);"
+                     ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+                 class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                 data-ripple-color="light"
+                 >
+              <img
+                   src="https://mdbootstrap.com/img/new/fluid/city/116.jpg"
+                   class="w-100"
+                   />
+              <a href="#!">
+                <div
+                     class="mask"
+                     style="background-color: rgba(251, 251, 251, 0.2);"
+                     ></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+       <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              SSPOT-VR
+            </h6>
+            <p>
+              Aqui, você pode aprender a programar brincando em um mundo virtual incrível. Com blocos coloridos e divertidos, você vai construir códigos e explorar o espaço, tudo enquanto se diverte e aprende!
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+             Outros Links
+            </h6>
+            <p>
+              <a class="text-white" href="pages/teachers.html">Teachers</a>
+            </p>
+            <p>
+              <a class="text-white" href="pages/students.html">Students</a>
+            </p>
+            <p>
+              <a class="text-white" href="pages/about.html">Sobre</a>
+            </p>           
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Ribeirão Preto, SP, Brazil</p>
+            <p><i class="fas fa-envelope mr-3"></i> contato@sspotvr.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +55 4002-8922</p>
+            <p><i class="fas fa-print mr-3"></i> +55 4002-8922</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+              <p>
+                &copy; 2021-2024 SSPOT-VR. Todos os direitos reservados.
+                <a href="privacy.html" class="text-white"
+                  >Política de Privacidade</a
+                >.
+              </p>
+
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
