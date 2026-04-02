@@ -5,32 +5,28 @@
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge"/>
 </p>
 
-
 ---
 
-
-##  Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=javascript,html,css,bootstrap,git,github,vscode" />
 </p>
 
+---
 
-##  Preview
+## 🎬 Preview
 
 <p align="center">
   <img src="./assets/img/telaSiteSSPOT-VR.png" width="500"/>
 </p>
-<div align="center">
-  <video width="400" controls>
-    <source src="./assets/img/vdSite.mp4" type="video/mp4">
-  </video>
-</div>
-<div align="center">
-  <video width="400" controls>
-    <source src="./assets/img/siteCompleto.mp4" type="video/mp4">
-  </video>
-</div>
+
+<p align="center">
+  <a href="./assets/img/vdSite.mp4">
+    <img src="https://img.shields.io/badge/▶️%20Assistir%20Demo-blue?style=for-the-badge" />
+  </a>
+</p>
+
 <p align="center">
   <img src="./assets/img/telaSiteSSPOT-VR.png" width="500"/>
 </p>
