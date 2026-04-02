@@ -5,6 +5,12 @@
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge"/>
 </p>
 
+<p align="center">
+  <a href="https://ruan-marcelo.github.io/sspot-ia/" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20Acessar%20Site-SSPOT%20IA-blue?style=for-the-badge" />
+  </a>
+</p>
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -27,8 +33,12 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="./assets/img/telaSiteSSPOT-VR.png" width="500"/>
-</p>
-
 ---
+
+## 🌐 Acesse o Projeto
+
+<p align="center">
+  <a href="https://ruan-marcelo.github.io/sspot-ia/" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20Acessar%20Site-SSPOT%20IA-blue?style=for-the-badge" />
+  </a>
+</p>
