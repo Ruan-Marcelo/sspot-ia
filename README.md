@@ -1,53 +1,38 @@
-<h1 align="center">🤖 SSPOT IA</h1>
+<h1 align="center">🤖 SSPOT IA SITE</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/IA-Artificial%20Intelligence-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge"/>
 </p>
 
+
+---
+
+
+##  Tecnologias Utilizadas
+
 <p align="center">
-  🚀 Sistema inteligente integrado ao projeto SSPOT-VR utilizando Inteligência Artificial para potencializar a experiência educacional.
+  <img src="https://skillicons.dev/icons?i=javascript,html,css,bootstrap,git,github,vscode" />
+</p>
+
+
+##  Preview
+
+<p align="center">
+  <img src="./assets/img/telaSiteSSPOT-VR.png" width="500"/>
+</p>
+<div align="center">
+  <video width="400" controls>
+    <source src="./assets/img/vdSite.mp4" type="video/mp4">
+  </video>
+</div>
+<div align="center">
+  <video width="400" controls>
+    <source src="./assets/img/siteCompleto.mp4" type="video/mp4">
+  </video>
+</div>
+<p align="center">
+  <img src="./assets/img/telaSiteSSPOT-VR.png" width="500"/>
 </p>
 
 ---
-
-## 📸 Preview do Projeto
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="500"/>
-</p>
-
----
-
-## 🧠 Sobre o Projeto
-
-O **SSPOT IA** é uma extensão do projeto **SSPOT-VR**, com foco em integrar **Inteligência Artificial** para tornar a experiência mais dinâmica, inteligente e interativa.
-
-💡 O objetivo principal é:
-- Auxiliar no aprendizado
-- Automatizar processos
-- Melhorar a interação do usuário
-- Criar soluções tecnológicas educacionais
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=javascript,html,css,git,github,vscode" />
-</p>
-
----
-
-## ⚙️ Funcionalidades
-
-- 🤖 Integração com Inteligência Artificial
-- 📊 Processamento de dados
-- 🌐 Interface web moderna
-- ⚡ Sistema escalável
-- 🔐 Estrutura preparada para autenticação
-
----
-
-## 📁 Estrutura do Projeto
