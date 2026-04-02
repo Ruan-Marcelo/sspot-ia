@@ -50,14 +50,6 @@ body {
 body.dark-theme .custom-navbar {
   background: rgba(30, 30, 30, 0.85);
 }
-.custom-navbar {
-  border-radius: 15px;
-  padding: 10px 20px;
-  backdrop-filter: blur(12px);
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-  transition: all 0.4s ease;
-}
 
 /* DARK MODE */
 body.dark-theme .custom-navbar {
