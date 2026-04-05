@@ -827,27 +827,6 @@ body.dark-theme #programming .card-content-section h5::before {
     font-size: 1.3rem;
   }
 }
-.pai-mae{
-    width: 50%;      
-
-  object-fit: contain;   
-  border-radius: 12px 12px 0 0; 
-  display: block;
-  margin: 0 auto;
-
-  padding: 5px 0;  
-}
-.mark-img  {
-  width: 30%;      
-
-  object-fit: contain;   
-  border-radius: 12px 12px 0 0; 
-  display: block;
-  margin: 0 auto;
-
-  padding: 5px 0;           
-}
-
 
 /* students */
 /* Seção de avaliação */
