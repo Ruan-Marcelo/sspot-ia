@@ -57,6 +57,10 @@ body.dark-theme .custom-navbar {
   box-shadow: 0 8px 25px rgba(0,0,0,0.4);
 }
 
+body.dark-theme .navbar-toggler{
+  background: white;
+}
+
 /* LINKS */
 .custom-link {
   position: relative;
@@ -207,14 +211,31 @@ body.dark-theme .navbar .navbar-brand {
 .btn-theme {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
+  justify-content: center;
+  gap: 0.4rem; /* um pouco menor */
+  padding: 0.4rem 0.8rem; /* reduzido */
   border-radius: 50px;
   font-weight: 600;
+  font-size: 14px; /* controla tamanho */
   border: none;
   cursor: pointer;
   overflow: hidden;
   position: relative;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .btn-theme {
+    padding: 0.3rem 0.6rem;
+    font-size: 12px;
+    gap: 0.3rem;
+  }
+    .navbar-nav {
+    gap: 10px;
+  }
+  .btn-theme .theme-text {
+    display: none;
+  }
 }
 
 .btn-theme .theme-icon {
