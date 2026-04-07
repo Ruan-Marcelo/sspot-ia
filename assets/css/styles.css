@@ -45,16 +45,19 @@ body {
   width: 92%;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
-
-/* dark */
-body.dark-theme .custom-navbar {
-  background: rgba(30, 30, 30, 0.85);
-}
-
 /* DARK MODE */
 body.dark-theme .custom-navbar {
   background: rgba(30, 30, 30, 0.8);
   box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+body.dark-theme .navbar-toggler {
+  background: rgba(255, 255, 255, 0.685);
+  border-radius: 8px;
 }
 
 /* LINKS */
@@ -63,6 +66,7 @@ body.dark-theme .custom-navbar {
   font-weight: 500;
   color: #333 !important;
   transition: all 0.3s ease;
+  z-index: 1;
 }
 
 /* underline animado */
@@ -71,10 +75,11 @@ body.dark-theme .custom-navbar {
   position: absolute;
   width: 0%;
   height: 2px;
-  bottom: -4px;
+  bottom: 6px;
   left: 0;
   background: #0d6efd;
   transition: width 0.3s ease;
+   z-index: -1;
 }
 
 .custom-link:hover::after {
@@ -251,7 +256,7 @@ body.dark-theme .btn-theme {
   color: #fff;
 }
 body.dark-theme .btn-theme:hover { background: #333; }
-body.dark-theme .btn-    .theme-icon { color: #ffd700; }
+body.dark-theme .btn-theme .theme-icon { color: #ffd700; }
 
 /* ============================
    CARDS - TEMA CLARO
