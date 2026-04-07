@@ -6,8 +6,8 @@ A tabela abaixo mostra quais versões do projeto **SSPOT IA** recebem atualizaç
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.x.x   | ✅ |
-| 0.x.x   | ❌ |
+| 1.0.0   | ✅ |
+| 2.0.0   | ❌ |
 
 > Apenas a versão mais recente é mantida com correções e melhorias de segurança.
 
