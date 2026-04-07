@@ -155,7 +155,7 @@ body.dark-theme .custom-link::after {
 }
 /* BOTÃO GRADIENTE */
 .btn-gradient {
-  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  background: var(--grad-primary);
   color: #fff;
   border-radius: 50px;
   padding: 8px 20px;
@@ -171,7 +171,7 @@ body.dark-theme .custom-link::after {
 }
 
 body.dark-theme .btn-gradient{
-  background: linear-gradient(135deg, #ffd700, #ff9800);
+  background: var(--grad-accent);
   color: black;
 }
 body.dark-theme .btn-gradient:hover{
@@ -1042,8 +1042,8 @@ body.dark-theme .modal-evaluation .modal-header {
   font-size: 1.6rem;
   font-weight: 700;
   border-radius: 50px;
-  background: var(--grad-success);
-  color: var(--bg-white);
+  background: var(--grad-primary);
+  color: var(--bg-light);
   padding: 20px 40px;
   border: none;
   text-decoration: none;
@@ -1057,14 +1057,23 @@ body.dark-theme .modal-evaluation .modal-header {
 }
 
 .btn-cta:hover {
-  transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
-  background: var(--grad-success-hover);
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(13,110,253,0.4);
+  color: var(--bg-light);
 }
 
 .btn-cta:hover i {
   transform: translateX(5px);
 }
+
+body.dark-theme .btn-cta{
+  background: var(--grad-accent);
+  color: var(--bg-dark-main);
+}
+body.dark-theme .btn-cta:hover{
+  box-shadow: 0 5px 5px rgba(255, 193, 7, 0.7)
+}
+
 
 /* ==================== GRID LAYOUT (SSPOT) ==================== */
 .sspot-text {
