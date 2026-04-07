@@ -501,12 +501,15 @@ body.dark-theme .card:not(.card-teacher):not(.card-student) {
   border-radius: 12px;
   padding: 20px;
 }
+
 .btn-play {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-
-  padding: 14px 28px;
+  justify-content: space-between; 
+  
+  width: 320px; 
+  max-width: 100%; 
+  padding: 14px 20px;
   font-size: 1.1rem;
   font-weight: 600;
 
@@ -520,16 +523,23 @@ body.dark-theme .card:not(.card-teacher):not(.card-student) {
   box-shadow: 0 5px 20px rgba(13,110,253,0.4);
 
   transition: all 0.3s ease;
+  margin: 7px 5px;
+}
+
+@media (max-width: 576px) {
+  .btn-play {
+    width: 100%;
+  }
 }
 
 /* seta */
-.btn-play i {
+.btn-play i{
   transition: transform 0.3s ease;
 }
 
 /* hover */
 .btn-play:hover {
-  transform: translateY(-3px) scale(1.03);
+  transform: translateY(-3px) scale(1.02);
   box-shadow: 0 10px 30px rgba(13,110,253,0.6);
 }
 
@@ -545,7 +555,7 @@ body.dark-theme .card:not(.card-teacher):not(.card-student) {
 body.dark-theme .btn-play {
   background: linear-gradient(135deg, #ffd700, #ff9800);
   color: #121212;
-  box-shadow: 0 5px 1px rgba(255, 193, 7, 0.5);
+  box-shadow: 0 5px 5px rgba(255, 193, 7, 0.5);
 }
 
 /* card base */
@@ -974,7 +984,8 @@ body.dark-theme .modal-evaluation .modal-header {
 
 /* Seção para professores*/
 #card-teacher{
-  height: 570px;
+  height: 100%;
+  max-height: 100%;
   margin-bottom: 50px;
 }
 
