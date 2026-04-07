@@ -513,6 +513,8 @@ body.dark-theme .card:not(.card-teacher):not(.card-student) {
   font-size: 1.1rem;
   font-weight: 600;
 
+  margin-bottom: 20px;
+
   color: #fff;
   text-decoration: none;
 
