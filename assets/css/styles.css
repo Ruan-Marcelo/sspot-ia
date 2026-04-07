@@ -57,10 +57,6 @@ body.dark-theme .custom-navbar {
   box-shadow: 0 8px 25px rgba(0,0,0,0.4);
 }
 
-body.dark-theme .navbar-toggler{
-  background: white;
-}
-
 /* LINKS */
 .custom-link {
   position: relative;
@@ -115,6 +111,15 @@ body.dark-theme .custom-link::after {
 .btn-gradient:hover {
   transform: scale(1.05);
   box-shadow: 0 5px 20px rgba(13,110,253,0.4);
+  color: #fff;
+}
+
+body.dark-theme .btn-gradient{
+  background: linear-gradient(135deg, #ffd700, #ff9800);
+  color: black;
+}
+body.dark-theme .btn-gradient:hover{
+  box-shadow: 0 5px 5px rgba(255, 193, 7, 0.7)
 }
 
 /* LOGO */
@@ -211,31 +216,14 @@ body.dark-theme .navbar .navbar-brand {
 .btn-theme {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.4rem; /* um pouco menor */
-  padding: 0.4rem 0.8rem; /* reduzido */
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 50px;
   font-weight: 600;
-  font-size: 14px; /* controla tamanho */
   border: none;
   cursor: pointer;
   overflow: hidden;
   position: relative;
-}
-
-/* Mobile */
-@media (max-width: 576px) {
-  .btn-theme {
-    padding: 0.3rem 0.6rem;
-    font-size: 12px;
-    gap: 0.3rem;
-  }
-    .navbar-nav {
-    gap: 10px;
-  }
-  .btn-theme .theme-text {
-    display: none;
-  }
 }
 
 .btn-theme .theme-icon {
@@ -263,7 +251,7 @@ body.dark-theme .btn-theme {
   color: #fff;
 }
 body.dark-theme .btn-theme:hover { background: #333; }
-body.dark-theme .btn-theme .theme-icon { color: #ffd700; }
+body.dark-theme .btn-    .theme-icon { color: #ffd700; }
 
 /* ============================
    CARDS - TEMA CLARO
@@ -557,7 +545,7 @@ body.dark-theme .card:not(.card-teacher):not(.card-student) {
 body.dark-theme .btn-play {
   background: linear-gradient(135deg, #ffd700, #ff9800);
   color: #121212;
-  box-shadow: 0 5px 20px rgba(255, 193, 7, 0.5);
+  box-shadow: 0 5px 1px rgba(255, 193, 7, 0.5);
 }
 
 /* card base */
@@ -826,6 +814,27 @@ body.dark-theme #programming .card-content-section h5::before {
     font-size: 1.3rem;
   }
 }
+.pai-mae{
+    width: 50%;      
+
+  object-fit: contain;   
+  border-radius: 12px 12px 0 0; 
+  display: block;
+  margin: 0 auto;
+
+  padding: 5px 0;  
+}
+.mark-img  {
+  width: 30%;      
+
+  object-fit: contain;   
+  border-radius: 12px 12px 0 0; 
+  display: block;
+  margin: 0 auto;
+
+  padding: 5px 0;           
+}
+
 
 /* students */
 /* Seção de avaliação */
@@ -963,11 +972,21 @@ body.dark-theme .modal-evaluation .modal-header {
   transform: translateX(5px);
 }
 
+/* Seção para professores*/
+#card-teacher{
+  height: 570px;
+  margin-bottom: 50px;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .btn-cta {
     font-size: 1.3rem;
     padding: 16px 32px;
+  }
+  #card-teacher{
+    height: auto;
+    margin-bottom: 50px;
   }
 }
 
@@ -981,4 +1000,3 @@ body.dark-theme .modal-evaluation .modal-header {
     padding: 14px 28px;
   }
 }
-
