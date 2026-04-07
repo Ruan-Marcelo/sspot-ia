@@ -15,6 +15,10 @@ body {
    nav bar customizada
 ============================ */
 /* NAVBAR BASE */
+.navbar {
+  display: flex;
+  align-items: center;
+}
 .active-link {
   color: #0d6efd !important;
 }
@@ -79,15 +83,33 @@ body.dark-theme .navbar-toggler {
   left: 0;
   background: #0d6efd;
   transition: width 0.3s ease;
-   z-index: -1;
+  z-index: -1; 
+   left: 50%;
+  transform: translateX(-50%);   
 }
 
 .custom-link:hover::after {
-  width: 100%;
+  width: 60%;
+  
 }
 
 .custom-link:hover {
   color: #0d6efd !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .nav-item {
+    width: auto;
+  }
+
+  .custom-link {
+    display: inline-block;
+    padding: 8px 0;
+  }
 }
 
 /* DARK MODE LINKS */
