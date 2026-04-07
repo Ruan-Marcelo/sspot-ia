@@ -11,7 +11,6 @@ function toggleTheme(animated=true){
     
     themeText.style.opacity = 0;
     setTimeout(() => {
-      themeText.textContent = "Claro";
       themeText.style.opacity = 1;
     }, 200);
 
@@ -22,7 +21,6 @@ function toggleTheme(animated=true){
     
     themeText.style.opacity = 0;
     setTimeout(() => {
-      themeText.textContent = "Escuro";
       themeText.style.opacity = 1;
     }, 200);
 
@@ -37,10 +35,8 @@ function toggleTheme(animated=true){
 if(localStorage.getItem('theme') === 'dark'){
   document.body.classList.add('dark-theme');
   themeIcon.textContent = '☀️';
-  themeText.textContent = "Claro";
 } else {
   themeIcon.textContent = '🌙';
-  themeText.textContent = "Escuro";
 }
 
 themeBtn.addEventListener('click', () => toggleTheme());
