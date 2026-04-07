@@ -42,3 +42,5 @@
     <img src="https://img.shields.io/badge/🔗%20Acessar%20Site-SSPOT%20IA-blue?style=for-the-badge" />
   </a>
 </p>
+
+https://github.com/users/Ruan-Marcelo/projects/8/views/1
