@@ -551,6 +551,11 @@ body.dark-theme #collabs {
   color: var(--text-dark);
   background: linear-gradient(135deg, #fdfbfb, #ebedee);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.03);
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body.dark-theme .team-card-flip .card-front,
@@ -604,6 +609,11 @@ body.dark-theme .team-card-flip .card-back {
   font-weight: 700;
   margin-top: 10px;
   color: var(--primary-blue);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
 
 body.dark-theme .team-card-flip h4 {
@@ -665,7 +675,6 @@ body.dark-theme .role-badge {
 .team-card-flip:hover {
   transform: translateY(-5px);
 }
-
 /* ==================== CARD REALIDADE VIRTUAL (VR) ==================== */
 .card-vr-bg {
   position: relative;
@@ -1242,7 +1251,7 @@ body.dark-theme .btn-cta:hover{
 }
 
 /* ==================== AJUSTES RESPONSIVOS FINAIS ==================== */
-#card-teacher {
+#card-teacher, #intro-about {
   margin-bottom: 50px;
 }
 
