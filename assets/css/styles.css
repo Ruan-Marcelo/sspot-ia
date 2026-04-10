@@ -441,29 +441,6 @@ body.dark-theme .credit-link:hover {
   color: var(--bg-white);
 }
 
-.linha-citacoes {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.license-badge {
-  background: rgba(13, 110, 253, 0.05);
-  transition: var(--transition-med);
-}
-
-.citation-box {
-  background: rgba(102, 16, 242, 0.05);
-  padding: 1.2rem;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  transition: var(--transition-med);
-}
-
-body.dark-theme .card-credits[style] {
-  border-top-color: var(--accent-gold) !important;
-}
-
 body.dark-theme .license-badge {
   background: rgba(255, 215, 0, 0.05);
 }
@@ -471,9 +448,6 @@ body.dark-theme .license-badge {
 body.dark-theme .citation-box {
   background: rgba(255, 152, 0, 0.05);
   color: #e0e0e0;
-}
-.linha-mit{
-  border-top: 4px solid var(--primary-blue) ;
 }
 /* ==================== CARDS ESPECÍFICOS (ESTUDANTE E PROFESSOR) ==================== */
 .card-student {
