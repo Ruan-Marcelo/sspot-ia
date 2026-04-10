@@ -386,6 +386,95 @@ body.dark-theme .btn-theme .theme-icon {
   color: var(--accent-gold);
 }
 
+/* ==================== SEÇÃO CRÉDITOS ==================== */
+#creditos {
+  background: linear-gradient(180deg, var(--bg-light), #e9ecef);
+  transition: var(--transition-med);
+}
+
+body.dark-theme #creditos {
+  background: linear-gradient(180deg, var(--bg-dark-main), var(--bg-dark-surface));
+}
+
+.title-credits {
+  color: var(--text-dark);
+  transition: color 0.5s ease;
+}
+
+body.dark-theme .title-credits {
+  color: var(--text-light);
+}
+
+.card-credits {
+  transition: var(--transition-fast);
+}
+
+.card-credits:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+.icon-theme {
+  color: var(--primary-blue);
+  transition: color 0.5s ease;
+  margin-right: 5px;
+}
+
+body.dark-theme .icon-theme {
+  color: var(--accent-gold);
+}
+.credit-link {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition-fast);
+}
+
+.credit-link:hover {
+  color: var(--primary-blue); 
+}
+
+body.dark-theme .credit-link {
+  color: var(--accent-gold);
+}
+
+body.dark-theme .credit-link:hover {
+  color: var(--bg-white);
+}
+
+.linha-citacoes {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.license-badge {
+  background: rgba(13, 110, 253, 0.05);
+  transition: var(--transition-med);
+}
+
+.citation-box {
+  background: rgba(102, 16, 242, 0.05);
+  padding: 1.2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  transition: var(--transition-med);
+}
+
+body.dark-theme .card-credits[style] {
+  border-top-color: var(--accent-gold) !important;
+}
+
+body.dark-theme .license-badge {
+  background: rgba(255, 215, 0, 0.05);
+}
+
+body.dark-theme .citation-box {
+  background: rgba(255, 152, 0, 0.05);
+  color: #e0e0e0;
+}
+.linha-mit{
+  border-top: 4px solid var(--primary-blue) ;
+}
 /* ==================== CARDS ESPECÍFICOS (ESTUDANTE E PROFESSOR) ==================== */
 .card-student {
   background: var(--bg-white);
