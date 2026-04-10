@@ -1123,6 +1123,19 @@ body.dark-theme .btn-cta:hover{
   }
 }
 
+.grid-cards-containers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem;
+}
+
+@media (max-width: 1116px) {
+  .grid-cards-containers {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
 @media (min-width: 1116px) {
   .sspot-grid-container {
     grid-template-columns: 7fr 5fr;
