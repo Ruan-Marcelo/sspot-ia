@@ -1,6 +1,5 @@
 const themeBtn = document.getElementById('themeToggleBtn');
 const themeIcon = themeBtn.querySelector('.theme-icon');
-const themeText = themeBtn.querySelector('.theme-text');
 
 function toggleTheme(animated=true){
   document.body.classList.toggle('dark-theme');
@@ -9,20 +8,12 @@ function toggleTheme(animated=true){
     themeIcon.style.transform = 'rotate(360deg)';
     themeIcon.textContent = '☀️';
     
-    themeText.style.opacity = 0;
-    setTimeout(() => {
-      themeText.style.opacity = 1;
-    }, 200);
 
     localStorage.setItem('theme','dark');
   } else {
     themeIcon.style.transform = 'rotate(-360deg)';
     themeIcon.textContent = '🌙';
     
-    themeText.style.opacity = 0;
-    setTimeout(() => {
-      themeText.style.opacity = 1;
-    }, 200);
 
     localStorage.setItem('theme','light');
   }

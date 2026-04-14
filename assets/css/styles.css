@@ -407,16 +407,25 @@ body.dark-theme .title-credits {
 
 .card-credits {
   transition: var(--transition-fast);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
 }
 
 .card-credits:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
+
 .icon-theme {
   color: var(--primary-blue);
   transition: color 0.5s ease;
   margin-right: 5px;
+  font-size: 1.1rem;
+
+}
+.card-credits:hover .icon-theme {
+  transform: scale(1.1);
 }
 
 body.dark-theme .icon-theme {
@@ -430,7 +439,9 @@ body.dark-theme .icon-theme {
 }
 
 .credit-link:hover {
-  color: var(--primary-blue); 
+  color: var(--primary-blue);
+  text-decoration: underline;
+  opacity: 0.85;
 }
 
 body.dark-theme .credit-link {
@@ -439,6 +450,7 @@ body.dark-theme .credit-link {
 
 body.dark-theme .credit-link:hover {
   color: var(--bg-white);
+  text-decoration: underline;
 }
 
 body.dark-theme .license-badge {
@@ -448,6 +460,36 @@ body.dark-theme .license-badge {
 body.dark-theme .citation-box {
   background: rgba(255, 152, 0, 0.05);
   color: #e0e0e0;
+}
+.citation-box {
+  background: rgba(0, 0, 0, 0.03);
+  border-left: 4px solid var(--primary-blue);
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+body.dark-theme .citation-box {
+  border-left: 4px solid var(--accent-gold);
+}
+.card-credits,
+.credit-link,
+.icon-theme {
+  transition: all 0.3s ease;
+}
+.partner-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: white;
+  padding: 3px;
+  transition: 0.3s;
+}
+body.dark-theme .partner-logo {
+  background: #fff;
+}
+.partner-logo:hover {
+  transform: scale(1.1);
 }
 /* ==================== CARDS ESPECÍFICOS (ESTUDANTE E PROFESSOR) ==================== */
 .card-student {
