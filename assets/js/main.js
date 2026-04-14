@@ -92,3 +92,4 @@ function fecharModal() {
   modal.style.display = "none";
   document.body.style.overflow = "auto";
 }
+
