@@ -73,3 +73,31 @@ const appearOnScroll = new IntersectionObserver((entries, observer) => {
 }, appearOptions);
 
 faders.forEach(fader => appearOnScroll.observe(fader));
+
+// modal
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+
+document.querySelectorAll(".img-click").forEach(img => {
+  img.addEventListener("click", function () {
+    modal.style.display = "flex";
+    modalImg.src = this.src;
+
+    document.body.style.overflow = "hidden";
+  });
+});
+
+// fechar no X
+document.querySelector(".close").onclick = fecharModal;
+
+// fechar tocando fora
+modal.addEventListener("click", function (e) {
+  if (e.target === modal) {
+    fecharModal();
+  }
+});
+
+function fecharModal() {
+  modal.style.display = "none";
+  document.body.style.overflow = "auto";
+}
