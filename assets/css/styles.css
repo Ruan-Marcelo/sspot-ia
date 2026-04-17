@@ -6,6 +6,7 @@
   --accent-orange: #ff9800;
   --bg-white: #ffffff;
   --bg-light: #f8f9fa;
+  --bg-light-colab: #ebebeb;
   --bg-dark-main: #121212;
   --bg-dark-surface: #1e1e1e;
   --bg-dark-card: #2c2c2c;
@@ -706,25 +707,7 @@ body.dark-theme .role-badge {
   background: var(--primary-blue);
 }
 
-.email-link {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 6px 12px;
-  background-color: var(--primary-blue);
-  color: var(--bg-white) !important;
-  border-radius: 25px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);
-  transition: var(--transition-fast);
-  text-decoration: none;
-}
 
-.email-link:hover {
-  background-color: #0056b3;
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 86, 179, 0.4);
-}
 
 .team-card-flip:hover {
   transform: translateY(-5px);
@@ -751,9 +734,12 @@ body.dark-theme .role-badge {
 
 .card-colab {
   border-radius: 25px;
-  background-color: #FFF;
-  width: 320px;
+  background: var(--bg-light-colab);
+  color: var(--text-dark);
+  font-family: var(--font-main);
+  margin-bottom: 50px;
 }
+
 
 .image-content-colab,
 .card-content-colab {
@@ -761,6 +747,12 @@ body.dark-theme .role-badge {
   flex-direction: column;
   align-items: center;
   padding: 10px 14px;
+}
+
+body.dark-theme .card-colab{
+  color: var(--text-light);
+  background: linear-gradient(135deg, var(--bg-dark-card), var(--bg-dark-surface));
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25), inset 0 0 10px rgba(255, 255, 255, 0.02);
 }
 
 .image-content-colab {
@@ -774,24 +766,12 @@ body.dark-theme .role-badge {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #4070F4;
+  background: var(--grad-primary);
   border-radius: 25px 25px 0 25px;
 }
 
-.overlay-colab::before,
-.overlay-colab::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: -40px;
-  height: 40px;
-  width: 40px;
-  background-color: #4070F4;
-}
-
-.overlay-colab::after {
-  border-radius: 0 25px 0 0;
-  background-color: #FFF;
+body.dark-theme .overlay-colab{
+  background: var(--grad-accent);
 }
 
 .card-image-colab {
@@ -799,7 +779,7 @@ body.dark-theme .role-badge {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background: #FFF;
+  background: var(--bg-light-colab);
   padding: 3px;
 }
 
@@ -808,37 +788,53 @@ body.dark-theme .role-badge {
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #4070F4;
+  border: 4px solid var(--bg-dark-main);
 }
 
-.name-colab {
-  font-size: 18px;
-  font-weight: 500;
-  color: #333;
+.line-card-colab{
+  color: var(--text-dark);
+  width: 100%;
 }
 
-.description-colab {
-  font-size: 14px;
-  color: #707070;
-  text-align: center;
+body.dark-theme .line-card-colab{
+  color: var(--text-light);
 }
 
 .button-colab {
   border: none;
   font-size: 16px;
-  color: #FFF;
+  color: var(--text-light);
   padding: 8px 16px;
-  background-color: #4070F4;
-  border-radius: 6px;
+  background: var(--grad-primary);
+  border-radius: 15px;
   margin: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
+  
+}
+
+.button-colab a{
+   color: var(--text-light);
+   text-decoration: none;
+   font-family: var(--font-main);
+   font-weight: 600;
+}
+
+body.dark-theme .button-colab{
+   background: var(--grad-accent);
+}
+
+body.dark-theme .button-colab a{
+   color: var(--text-dark);
 }
 
 .button-colab:hover {
-  background: #265DF2;
+  transform: scale(1.1);
 }
 
+.email-link{
+  color: white;
+}
 
 /* ==================== CARD REALIDADE VIRTUAL (VR) ==================== */
 .card-vr-bg {
